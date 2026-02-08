@@ -10,7 +10,7 @@ export default function ProductCard({
   buyProduct: (product: Product) => void;
 }) {
   return (
-    <div className="rounded-lg bg-white/20 p-5 flex flex-col h-full">
+    <div className="rounded-lg bg-pink-500/20 p-5 flex flex-col h-full">
       <div className="rounded-lg mb-5 w-full h-[300px] overflow-hidden bg-black/10">
         <img
           src={product.image}
